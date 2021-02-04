@@ -9,17 +9,13 @@ public class LinkedinPage {
 	private String emailField = "username";
 	private String password = "password";
 	private String userEmail = "tutkuayavefe@gmail.com";
-	private String userPassword = "*****";
+	private String userPassword = "***,";
 	private String signInButton = "button";
 	private String logoMe = "ember35";
 	private String viewProfile = "ember37";
 	private String addSkill = "ember558";
 
 	
-	
-	
-
-
 
 	public LinkedinPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
