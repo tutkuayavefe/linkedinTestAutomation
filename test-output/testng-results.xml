@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-04T00:10:04 CET" name="Default suite" finished-at="2021-02-04T00:10:30 CET" duration-ms="25572">
+  <suite started-at="2021-02-04T16:22:51 CET" name="Default suite" finished-at="2021-02-04T16:24:41 CET" duration-ms="110078">
     <groups>
     </groups>
-    <test started-at="2021-02-04T00:10:04 CET" name="Default test" finished-at="2021-02-04T00:10:30 CET" duration-ms="25572">
+    <test started-at="2021-02-04T16:22:51 CET" name="Default test" finished-at="2021-02-04T16:24:41 CET" duration-ms="110078">
       <class name="com.linkedin.test.AddSkillTest">
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.linkedin.test.AddSkillTest@7748410a]" started-at="2021-02-04T00:10:04 CET" name="methodSetup" finished-at="2021-02-04T00:10:09 CET" duration-ms="5253" status="PASS">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:22:51 CET" name="methodSetup" finished-at="2021-02-04T16:23:00 CET" duration-ms="8486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="loginToLinkedinWithExistAccount()[pri:1, instance:com.linkedin.test.AddSkillTest@7748410a]" started-at="2021-02-04T00:10:09 CET" name="loginToLinkedinWithExistAccount" finished-at="2021-02-04T00:10:17 CET" duration-ms="7672" status="PASS">
+        <test-method signature="loginToLinkedinWithExistAccount()[pri:1, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:23:00 CET" name="loginToLinkedinWithExistAccount" finished-at="2021-02-04T16:23:08 CET" duration-ms="8858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToLinkedinWithExistAccount -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:com.linkedin.test.AddSkillTest@7748410a]" started-at="2021-02-04T00:10:17 CET" name="methodTearDown" finished-at="2021-02-04T00:10:17 CET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:23:08 CET" name="methodTearDown" finished-at="2021-02-04T16:23:08 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.linkedin.test.AddSkillTest@7748410a]" started-at="2021-02-04T00:10:17 CET" name="methodSetup" finished-at="2021-02-04T00:10:21 CET" duration-ms="4213" status="PASS">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:23:08 CET" name="methodSetup" finished-at="2021-02-04T16:23:18 CET" duration-ms="9778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="navigationToProfile()[pri:2, instance:com.linkedin.test.AddSkillTest@7748410a]" started-at="2021-02-04T00:10:21 CET" name="navigationToProfile" finished-at="2021-02-04T00:10:30 CET" duration-ms="8390" status="PASS">
+        <test-method signature="navigationToProfile()[pri:2, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:23:18 CET" name="navigationToProfile" finished-at="2021-02-04T16:23:31 CET" duration-ms="12711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigationToProfile -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:com.linkedin.test.AddSkillTest@7748410a]" started-at="2021-02-04T00:10:30 CET" name="methodTearDown" finished-at="2021-02-04T00:10:30 CET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:23:31 CET" name="methodTearDown" finished-at="2021-02-04T16:23:31 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:23:31 CET" name="methodSetup" finished-at="2021-02-04T16:23:42 CET" duration-ms="11536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="scrollDownToAddSkillArea()[pri:3, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:23:42 CET" name="scrollDownToAddSkillArea" finished-at="2021-02-04T16:24:04 CET" duration-ms="21094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDownToAddSkillArea -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:24:04 CET" name="methodTearDown" finished-at="2021-02-04T16:24:04 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:24:04 CET" name="methodSetup" finished-at="2021-02-04T16:24:13 CET" duration-ms="9224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="addingSkill()[pri:4, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:24:13 CET" name="addingSkill" finished-at="2021-02-04T16:24:41 CET" duration-ms="28287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingSkill -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:com.linkedin.test.AddSkillTest@37f1104d]" started-at="2021-02-04T16:24:41 CET" name="methodTearDown" finished-at="2021-02-04T16:24:41 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
