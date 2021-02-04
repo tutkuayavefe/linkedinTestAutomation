@@ -1,6 +1,6 @@
 # linkedinTestAutomation
 
-#User technologies
+#Used technologies
 Maven
 TestNG
 Java
