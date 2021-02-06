@@ -1,4 +1,7 @@
 language: java
-script: xattr -r -d com.apple.quarantine geckodriver
+script: 
+  - pwd 
+  - xattr -r -d com.apple.quarantine ./src/main/resources/geckodriver
+geckodriver
 os:
   - osx
