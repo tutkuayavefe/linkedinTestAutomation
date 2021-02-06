@@ -1,3 +1,4 @@
 language: java
+script: xattr -r -d com.apple.quarantine geckodriver
 os:
   - osx
