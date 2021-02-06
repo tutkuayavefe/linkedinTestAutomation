@@ -1,7 +1,5 @@
 language: java
 script: 
-  - pwd 
   - xattr -r -d com.apple.quarantine ./src/main/resources/geckodriver
-geckodriver
 os:
   - osx
