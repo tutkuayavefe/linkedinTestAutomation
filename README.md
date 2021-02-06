@@ -1,5 +1,5 @@
 # linkedinTestAutomation
-
+[![Build Status](https://travis-ci.com/tutkuayavefe/linkedinTestAutomation.svg?branch=master)](https://travis-ci.com/tutkuayavefe/linkedinTestAutomation)
 #Used technologies
 Maven
 TestNG
