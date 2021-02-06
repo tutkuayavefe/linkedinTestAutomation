@@ -1,5 +1,5 @@
-language: java
-script: 
-  - xattr -r -d com.apple.quarantine ./src/main/resources/geckodriver
 os:
   - osx
+script: 
+  - xattr -r -d com.apple.quarantine ./src/main/resources/geckodriver
+language: java
